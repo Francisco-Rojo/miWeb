@@ -1,5 +1,6 @@
-nav, ul, li {
+nav, ul{
 	list-style: none;
+	color: black;
 }
 
 nav, ul, li, a {color: black;}
@@ -44,4 +45,17 @@ nav, ul, li, a {color: black;}
 #img2 {
 	width: 320px;
 	height: 120px;
+}
+
+.btn {
+	background-color: #1B2631;
+	border: #1B2631;
+}
+
+#btnLetra {
+	color: white;
+}
+
+footer {
+	font-size: 12px;
 }
