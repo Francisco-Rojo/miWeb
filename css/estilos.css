@@ -5,11 +5,15 @@ nav, ul{
 
 nav, ul, li, a {color: black;}
 
+nav	{
+	font-size: 15px;
+}
+
 .titulo {color: #424949;}
 
 .acercaDeMi {color: #424949;}
 
-.contenedor {background-color: #F2F4F4;}
+.contenedor {background-color: #E5E8E8;}
 
 .descripcion {font-size: 12px;}
 
