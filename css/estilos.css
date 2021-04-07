@@ -1,0 +1,8 @@
+
+.contenedor {
+	width: 100%;
+	height: 705px;
+	background-image: url(../img/uno.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
