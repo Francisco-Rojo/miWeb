@@ -19,31 +19,101 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-dark  bg-dark navbar-expand-md">
-			<div class="container">
-
-				<button type="button" class="navbar-toggler mr-auto ml-auto" data-toggle="collapse" 
-				data-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
-				<div class="collapse navbar-collapse" id="menuPrincipal">
-					<ul id="menu" class="navbar-nav  text-center"> 
-						<li><a class="navbar-brand nav-link disabled">Quienes somos?</a></li>
-						<li><a href="#herramientas" class="navbar-brand nav-link active">Herramientas</a></li>
-						<li><a href="#websApps" class="navbar-brand nav-link active">Webs y Apps</a></li>
-						<li><a href="#equipo" class="navbar-brand nav-link active">Equipo</a></li>
-						<li><a href="#contacto" class="navbar-brand nav-link active">Contacto</a></li>
-					</ul> 
-				</div>
-			</div>
-		</nav>
-
+	<nav class="container-fluid">
 		<div class="container">
-			<div class="row d-flex justify-content-center">
-				<p class="display-1 mt-5">Hola mundo</p>
-			</div>
+			<ul class="d-flex justify-content-center justify-content-md-around p-1 rounded font-weight-bold">
+				<li><div class="p-2"><a href="#">Acerca de mi</a></div></li>
+				<li><div class="p-2"><a>Proyectos</a></div></li>
+				<li><div class="p-2"><a>Contacto</a></div></li>
+			</ul>
 		</div>
+  	</nav>
+
+  	<article class="container contenedor p-3">
+  		<section class="row d-flex justify-content-center titulo">
+  			<h1 class="d-none d-md-block">Programación - Diseño</h1>
+  			<h1 class="h4 d-md-none">Programación - Diseño</h1>
+  		</section>
+
+  		<section class="row mx-5 d-flex justify-content-center">
+  			<div class="col-12 col-md-6 order-md-1 align-self-center">
+  				<img class="img-fluid rounded-circle  " src="img/yo.jpg">
+  			</div>
+  			<div class="acercaDeMi col-12 col-md-6 order-md-0 mt-2">
+  				<h2 class="text-center d-none d-md-block">Acerca de mi...</h2>
+  				<h2 class="h5 text-center d-md-none">Acerca de mi...</h2>
+  				<p class="text-justify d-none d-lg-block">Hola, mi nombre es <strong>Francisco Javier Rojo Córdova</strong> egresado del <strong>Instituto Tecnológico de Milpa Alta</strong> perteneciente a la carrera de Ingeniería en Sistemas Computacionales. Me considero una persona interesada en el mundo del desarrollo y nuevas tecnologías con la buena práctica de llevar una investigación previa en futuros trabajos a resolver, creando de este modo una aptitud de autodidacta. <br>
+  					Mis paciones dentro del mundo del desarrollo son los diseños (Front-end) tanto de aplicaciones móviles o páginas web, así mismo el ponerme desafíos sobre implementar lógicas de programación para hacer funcionar futuros proyectos.   <br>
+  				Por ultimo cuento con una experiencia de aproximadamente 1 año dentro del diseño front-end en páginas web con la implementación del framework bootstrap y así mismo HTML, CSS y elementos básicos de JAVASCRIPT. Y aproximadamente 2 años en el uso del entorno de desarrollo Android Studio con el lenguaje de programación JAVA para la creación de aplicaciones móviles (proyectos escolares).</p>
+
+  				<p class="descripcion text-justify d-block d-lg-none">Hola, mi nombre es <strong>Francisco Javier Rojo Córdova</strong> egresado del <strong>Instituto Tecnológico de Milpa Alta</strong> perteneciente a la carrera de Ingeniería en Sistemas Computacionales. Me considero una persona interesada en el mundo del desarrollo y nuevas tecnologías con la buena práctica de llevar una investigación previa en futuros trabajos a resolver, creando de este modo una aptitud de autodidacta. <br>
+  					Mis paciones dentro del mundo del desarrollo son los diseños (Front-end) tanto de aplicaciones móviles o páginas web, así mismo el ponerme desafíos sobre implementar lógicas de programación para hacer funcionar futuros proyectos.   <br>
+  				Por ultimo cuento con una experiencia de aproximadamente 1 año dentro del diseño front-end en páginas web con la implementación del framework bootstrap y así mismo HTML, CSS y elementos básicos de JAVASCRIPT. Y aproximadamente 2 años en el uso del entorno de desarrollo Android Studio con el lenguaje de programación JAVA para la creación de aplicaciones móviles (proyectos escolares).</p>
+  			</div>
+  		</section>
+
+  		<section class="row p-2">
+  			<div class="col-12">
+  				<h2 class="h5 text-center d-md-none">Proyectos</h2>
+  					<h2 class="d-none d-md-block text-center">Proyectos</h2>
+  			</div>
+
+  			<div id="proyecto2" class="col-12 d-none d-lg-block p-1 col-md-6">
+  				<p class="text-center"><strong>Ajolotech</strong></p>
+  				<div class="row d-flex justify-content-center">
+  					<img id="imgAjolotech" class="img-fluid" src="img/ajolotech.PNG">
+  				</div>
+  				<p class="text-center">¿De qué trata? Es una página de una empresa emergente para el desarrollo de aplicaciones móviles o páginas web de negocios locales de Xochimilco.</p>
+  			</div>
+
+  			<div id="proyecto2" class="col-12 d-none d-lg-block p-1 col-md-6">
+  				<p class="text-center"><strong>Los Bigotes de Panini</strong></p>
+  				<div class="row d-flex justify-content-center">
+  					<img id="imgPanini" class="img-fluid" src="img/panini.PNG">
+  				</div>
+  				<p class="text-center">¿De qué trata? Es una página web diseñada especialmente para dispositivos móviles en donde se puede visualizar el menú principal de la tienda.</p>
+  			</div>
+
+  			<div id="proyecto2" class="col-12 d-none d-lg-block p-1">
+
+  				<p class="text-center"><strong>Tu geografía, estados y capitales de México</strong></p>
+  				<div class="row d-flex justify-content-center">
+  					<img class="img-fluid" src="img/geografia.PNG">
+  				</div>
+  				<p class="text-center">¿De qué trata? Es una aplicación desarrollada en Android Studio como proyecto final de una materia escolar donde se muestra todos los estados de México y sus respectivas capitales.</p>
+  			</div>
+<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+  			<div class="col-12 d-block d-lg-none p-1" id="proyecto">
+  				<p class="text-center"><strong>Ajolotech</strong> </p>
+
+  				<div class="row d-flex justify-content-center">
+  					<img id="img" class="img-fluid" src="img/ajolotech.PNG">
+  				</div>
+
+  				<p class="text-center">¿De qué trata? Es una página de una empresa emergente para el desarrollo de aplicaciones móviles o páginas web de negocios locales de Xochimilco.</p>
+  			</div>
+  			<div class="col-12 d-block d-lg-none p-1" id="proyecto">
+  				<p class="text-center"><strong>Los bigotes de panini</strong></p>
+
+  				<div class="row d-flex justify-content-center">
+  					<img id="img" class="img-fluid" src="img/panini.PNG">
+  				</div>
+  				<p class="text-center">¿De qué trata? Es una página web diseñada especialmente para dispositivos móviles en donde se puede visualizar el menú principal de la tienda.</p>
+  			</div>
+
+  			<div class="col-12 d-block d-lg-none p-1" id="proyecto">
+  				<p class="text-center"><strong>Tu geografía, estados y capitales de México</strong></p>
+
+  				<div class="row d-flex justify-content-center">
+  					<img id="img2" class="img-fluid" src="img/geografia.PNG">
+  				</div>
+  				<p class="text-center">¿De qué trata? Es una aplicación desarrollada en Android Studio como proyecto final de una materia escolar donde se muestra todos los estados de México y sus respectivas capitales.</p>
+  			</div>
+  		</section>
+  	</article>
+
+
+
 
 	<!-- ARCHIVOS BOOTSTRAP JAVASCRIPT -->
 	<script src="js/jquery-3.3.1.min.js"></script>
