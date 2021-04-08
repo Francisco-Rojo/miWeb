@@ -17,6 +17,26 @@ nav	{
 
 .descripcion {font-size: 12px;}
 
+#git {
+	margin-top: 7px;
+	width: 35px;
+	height: 35px;
+}
+
+#gmail, #gitModal {
+	width: 50px;
+	height: 50px;
+}
+
+#ventana {
+	background-color: rgba(248, 249, 249, 0.9);
+}
+
+
+hr {
+	width: 85%;
+}
+
 #proyecto {
 	font-size: 12px;
 	border: solid 0.5px #AEB6BF ; 
@@ -24,10 +44,15 @@ nav	{
 	margin-top: 4px;
 }
 
+
 #proyecto2 {
 
-	border: solid 0.5px #AEB6BF ; 
-	border-radius: 10px;
+	border-left:  solid 0.5px #AEB6BF ; 
+}
+
+#proyecto3 {
+
+	border-top:  solid 0.5px #AEB6BF ; 
 }
 
 #imgAjolotech {

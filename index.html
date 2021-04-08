@@ -2,13 +2,10 @@
 <html lang="es">
 <head>  
 	<meta charset="UTF-8">
-	<meta name="keywords" content="metal mexico, heavy metal, metal, grupo, musica, musica nacional, rock mexicano">
-	<meta name="description" content="Grupo de musica, genero Metal, de la ciudad de méxico">
-	<meta name="author" content="Francisco y equipo AjoloTech">
+	<meta name="keywords" content="Pagina web, my sitio web, frank">
+	<meta name="description" content="Pagina web de mis proyectos">
+	<meta name="author" content="Francisco Javier Rojo Córdova">
   	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  	<!-- ICONO 
-  	<link rel="shortcut icon" href="img/bigote.svg" / -->
 
   	<!-- ARCHIVOS CSS BOOTSTRAP 4 -->
   	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
@@ -20,11 +17,11 @@
 <body>
 
 	<nav class="container-fluid">
-		<div class="container">
+		<div class="container mt-3">
 			<ul class="d-flex justify-content-center justify-content-md-around p-1 rounded font-weight-bold">
 				<li><div class="p-2"><a>Acerca de mi</a></div></li>
-				<li><div class="p-2"><a href="#proy">Proyectos</a></div></li>
-				<li><div class="p-2"><a>Contacto</a></div></li>
+				<li><div class="p-2"><a href="#a">Proyectos</a></div></li>
+				<li><div class="p-2"><a href="#" data-toggle="modal" data-target="#ventanaModa">Contacto</a></div></li>
 			</ul>
 		</div>
   	</nav>
@@ -32,12 +29,20 @@
   	<article class="container contenedor p-3">
   		<section class="row d-flex justify-content-center titulo">
   			<h1 class="d-none d-md-block">Programación - Diseño</h1>
-  			<h1 class="h4 d-md-none">Programación - Diseño</h1>
+  			<h1 class="h3 d-md-none">Programación - Diseño</h1>
+  			<div class="col-12">
+  				<h5 class="text-center">Francisco Javier Rojo Córdova</h5>
+  			</div>
   		</section>
-
+<br>
   		<section class="row mx-5 d-flex justify-content-center">
   			<div class="col-12 col-md-6 order-md-1 align-self-center">
   				<img class="img-fluid rounded-circle  " src="img/yo.jpg">
+  				<div class="row d-flex justify-content-center">
+  					<a href="https://github.com/franciscoDiablo">
+  						<img id="git" class="img-fluid" src="img/github.png">
+  					</a> 
+  				</div>
   			</div>
   			<div class="acercaDeMi col-12 col-md-6 order-md-0 mt-2">
   				<h2 class="text-center d-none d-md-block">Acerca de mi...</h2>
@@ -51,14 +56,15 @@
   				Por ultimo cuento con una experiencia de aproximadamente 1 año dentro del diseño front-end en páginas web con la implementación del framework bootstrap y así mismo HTML, CSS y elementos básicos de JAVASCRIPT. Y aproximadamente 2 años en el uso del entorno de desarrollo Android Studio con el lenguaje de programación JAVA para la creación de aplicaciones móviles (proyectos escolares).</p>
   			</div>
   		</section>
-
+  		<hr>
   		<section class="row p-2">
-  			<div class="col-12">
+  			<div class="col-12" id="a">
   				<h2 id="proy" class="h5 text-center d-md-none">Proyectos</h2>
-  					<h2 class="d-none d-md-block text-center">Proyectos</h2>
+  				<h2 class="d-none d-md-block text-center">Proyectos</h2>
   			</div>
 
-  			<div id="proyecto2" class="col-12 d-none d-lg-block p-2 col-md-6">
+
+  			<div id="proyecto1" class="col-12 d-none d-lg-block p-2 col-md-6">
   				<p class="text-center"><strong>Ajolotech</strong></p>
   				<div class="row d-flex justify-content-center">
   					<img id="imgAjolotech" class="img-fluid" src="img/ajolotech.PNG">
@@ -70,6 +76,8 @@
   					<button type="button" class="btn btn-secondary btn-lg"><a id="btnLetra" href="https://ajolotech.net/">Visitar</a></button>
   				</div>
   			</div>
+
+
 
   			<div id="proyecto2" class="col-12 d-none d-lg-block p-2 col-md-6">
   				<p class="text-center"><strong>Los Bigotes de Panini</strong></p>
@@ -84,7 +92,9 @@
   				</div>
   			</div>
 
-  			<div id="proyecto2" class="col-12 d-none d-lg-block p-2">
+
+
+  			<div id="proyecto3" class="col-12 d-none d-lg-block p-2">
 
   				<p class="text-center"><strong>Tu geografía, estados y capitales de México</strong></p>
   				<div class="row d-flex justify-content-center">
@@ -97,7 +107,12 @@
   					<button type="button" class="btn btn-secondary btn-lg"><a id="btnLetra" href="https://play.google.com/store/apps/details?id=com.davidgd.davidgd.tugeografia">Visitar</a></button>
   				</div>
   			</div>
+
+
 <!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+  			
+
+
   			<div class="col-12 d-block d-lg-none p-1" id="proyecto">
   				<p class="text-center"><strong>Ajolotech</strong> </p>
 
@@ -112,6 +127,9 @@
   					<button type="button" class="btn btn-secondary"><a id="btnLetra" href="https://ajolotech.net/">Visitar</a></button>
   				</div>
   			</div>
+  			
+
+
   			<div class="col-12 d-block d-lg-none p-1" id="proyecto">
   				<p class="text-center"><strong>Los bigotes de panini</strong></p>
 
@@ -125,6 +143,8 @@
   					<button type="button" class="btn btn-secondary"><a id="btnLetra" href="https://bigotes.ajolotech.net/">Visitar</a></button>
   				</div>
   			</div>
+
+  			
 
   			<div class="col-12 d-block d-lg-none p-1" id="proyecto">
   				<p class="text-center"><strong>Tu geografía, estados y capitales de México</strong></p>
@@ -141,20 +161,47 @@
   			</div>
   		</section>
   	</article>
-<!-- SECCION PIE DE PÁGINA -->
+
+
+
+	<!-- SECCION PIE DE PÁGINA -->
 	<footer class="pie-de-pagina text-center bg-dark text-white">
-	  <div class="container">
-	    <p class="m-0 py-3">Copyright © 2021. Todos los derechos reservados </p>
-	  </div>
+		<div class="container">
+	    	<p class="m-0 py-3">Copyright © 2021. Todos los derechos reservados por Francisco Javier Rojo Córdova </p>
+	  	</div>
 	</footer>
 
 
+
+	<!--MODAL CONTACTO-->
+
+	<!-- modal -->
+	<div class="modal fade " tabindex="-1" id="ventanaModa">
+		<div class="modal-dialog">
+			<div class="modal-content" id="ventana">
+				<div class="modal-header d-flex justify-content-center">
+					<h3 class="modal-title">Contacto</h3>
+				</div>
+				<div class="modal-body">
+					<p class="text-center"><strong>correo:</strong></p>
+					<p class="text-center">francisco_2710_javier@hotmail.com</p>
+				</div>
+				<div class="modal-footer d-flex justify-content-center">
+					<a href="mailto:francisco_2710_javier@hotmail.com">
+						<img id="gmail" src="img/gmail.png">
+					</a>
+					<a href="https://github.com/franciscoDiablo">
+  						<img id="gitModal" class="img-fluid" src="img/github.png">
+  					</a>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 	<!-- ARCHIVOS BOOTSTRAP JAVASCRIPT -->
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-
 </body>
 </html>
