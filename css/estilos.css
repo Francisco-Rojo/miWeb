@@ -1,19 +1,21 @@
-nav, ul{
-	list-style: none;
-	color: black;
+body {
+	margin: 0;
+	padding: 0;
+	background-color: black;
 }
 
-nav, ul, li, a {color: black;}
+nav, ul{list-style: none;}
 
-nav	{
-	font-size: 15px;
+nav, ul, li, a {color: white;}
+
+nav	{font-size: 15px;}
+
+h1, h2,h3,h4,h5,h6 {font-family: 'Concert One', cursive; color: black; }
+
+.contenedor {
+	background-color: white; 
+	border-radius: 17px;
 }
-
-.titulo {color: #424949;}
-
-.acercaDeMi {color: #424949;}
-
-.contenedor {background-color: #E5E8E8;}
 
 .descripcion {font-size: 12px;}
 
@@ -28,14 +30,11 @@ nav	{
 	height: 50px;
 }
 
-#ventana {
-	background-color: rgba(248, 249, 249, 0.9);
-}
+#ventana {background-color: rgba(248, 249, 249, 0.9);}
 
+#ventanaModa {background-color: rgba(123, 125, 125 , 0.4);}
 
-hr {
-	width: 85%;
-}
+hr {width: 85%;}
 
 #proyecto {
 	font-size: 12px;
@@ -44,16 +43,9 @@ hr {
 	margin-top: 4px;
 }
 
+#proyecto2 {border-left:  solid 0.5px #AEB6BF ; }
 
-#proyecto2 {
-
-	border-left:  solid 0.5px #AEB6BF ; 
-}
-
-#proyecto3 {
-
-	border-top:  solid 0.5px #AEB6BF ; 
-}
+#proyecto3 { border-top:  solid 0.5px #AEB6BF ; }
 
 #imgAjolotech {
 	width: 348px;
@@ -77,14 +69,13 @@ hr {
 }
 
 .btn {
-	background-color: #1B2631;
-	border: #1B2631;
+	background-color: black;
+	border: black;
 }
 
-#btnLetra {
-	color: white;
-}
+#btnLetra {color: white;}
 
 footer {
 	font-size: 12px;
+	background-color: black;
 }
