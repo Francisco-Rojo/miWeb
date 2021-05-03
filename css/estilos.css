@@ -14,7 +14,7 @@ h1, h2,h3,h4,h5,h6 {font-family: 'Concert One', cursive; color: black; }
 
 .contenedor {
 	background-color: white; 
-	border-radius: 17px;
+	border-radius: 10px;
 }
 
 .descripcion {font-size: 12px;}
